@@ -1,5 +1,5 @@
 export const bio = [
-  "Hello there &#128075;",
+  "Hello",
   "I'm Vinay Somawat, a Software Engineer at Biofourmis India with a specialization in JavaScript Applications. I have a passion for all things tech and consider myself a curious and enthusiastic developer.",
   "Apart from coding, I love to read, listen to music, and travel.",
   "As a lifelong learner, I'm always seeking new knowledge and experiences to broaden my perspective and enhance my skills.",
@@ -9,45 +9,45 @@ export const bio = [
 export const skills = [
   {
     title: "Languages",
-    skillName: "JavaScript, TypeScript",
-    color: "1",
-    percentage: "80",
+    skillName: "JavaScript",
+  },
+    {
+    title: "Java",
+    skillName: "Java",
+    
+  },
+    {
+    title: "Python",
+    skillName: "Python",
+    
+  },
+    {
+    title: "C/C++",
+    skillName: "C/C++",
+    
   },
   {
-    title: "Frameworks/Libraries",
-    skillName: "Angular, Rxjs, Ngxs",
-    color: "6",
-    percentage: "70",
+    title: "Basics in Web Development",
+    skillName: "HTML, Bootstrap",
+  
   },
   {
-    title: "Design",
-    skillName: "HTML, Bootstrap, Tailwind",
-    color: "4",
-    percentage: "70",
+    title: "Embedded Systems",
+    skillName: "Instrumentation and Sensors",
   },
   {
-    title: "Version Control",
-    skillName: "GitHub, JIRA, Bitbucket",
-    color: "7",
-    percentage: "70",
-  },
-  {
-    title: "Tools",
-    skillName: "Postman, Chrome DevTools",
-    color: "3",
-    percentage: "80",
+    title: "Testing",
+    skillName: "Code Testing",
+
   },
   {
     title: "Analytics",
-    skillName: "CleverTap, Countly",
-    color: "5",
-    percentage: "50",
+    skillName: "Microsoft Excel, R, Tableau",
   },
   {
     title: "Editor",
     skillName: "VS Code",
-    color: "6",
-    percentage: "70",
+
   },
 ];
 
