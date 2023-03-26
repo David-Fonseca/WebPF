@@ -5,9 +5,9 @@ window.addEventListener("DOMContentLoaded", async function () {
     }
 
     document.querySelectorAll(".stack-card").forEach(async function (el) {
-        const userId = el.getAttribute("user-id");
+        
 
-        const response = await get(`https://api.stackexchange.com/2.2/users/${userId}?site=stackoverflow`);
+        const response = await get(`https://2093a46ca776e929c06c.writing.io/#tour`);
         const user = response.items[0];
         const { profile_image, website_url, link, display_name, reputation, user_id } = user;
         const { gold, silver, bronze } = user.badge_counts;

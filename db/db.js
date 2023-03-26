@@ -1,9 +1,6 @@
 export const bio = [
   "Hello",
-  "I'm Vinay Somawat, a Software Engineer at Biofourmis India with a specialization in JavaScript Applications. I have a passion for all things tech and consider myself a curious and enthusiastic developer.",
-  "Apart from coding, I love to read, listen to music, and travel.",
-  "As a lifelong learner, I'm always seeking new knowledge and experiences to broaden my perspective and enhance my skills.",
-  "Thanks for taking the time to learn a little about me!",
+  "",
 ];
 
 export const skills = [
@@ -154,7 +151,7 @@ export const projects = {
 
 export const experience = [
   {
-    title: "Biofourmis India Pvt. Ltd.",
+    title: "TutorBright",
     duration: "April 2022 - Present",
     subtitle: "Software Engineer",
     details: [
@@ -222,64 +219,22 @@ export const education = [
 ];
 
 export const footer = [
-  {
-    label: "Dev Profiles",
-    data: [
-      {
-        text: "Stackoverflow",
-        link: "https://stackoverflow.com/users/8461233/vinay-somawat",
-      },
-      {
-        text: "GitHub",
-        link: "https://github.com/vinaysomawat",
-      },
-      {
-        text: "LeetCode",
-        link: "https://leetcode.com/somawatvinay/",
-      },
-    ],
-  },
-  {
-    label: "Resources",
-    data: [
-      {
-        text: "Enable Dark/Light Mode",
-        func: "enableDarkMode()",
-      },
-      {
-        text: "Print this page",
-        func: "window.print()",
-      },
-      {
-        text: "Clone this page",
-        link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
-      },
-    ],
-  },
+  
   {
     label: "Social Profiles",
     data: [
       {
         text: "Linkedin",
-        link: "https://www.linkedin.com/in/vinaysomawat/",
+        link: "https://www.linkedin.com/in/david-fonseca-209040187/",
       },
       {
-        text: "Twitter",
-        link: "https://twitter.com/thesigmakid",
+        text: "Instagram",
+        link: "https://www.instagram.com/david___fonseca/",
       },
-      {
-        text: "Buy me a coffee",
-        link: "https://www.buymeacoffee.com/r194dME8y",
-      },
+
     ],
   },
-  {
-    label: "copyright-text",
-    data: [
-      "Made with &hearts; by Vinay Somawat.",
-      "&copy; No Copyrights. Feel free to use this template.",
-    ],
-  },
+  
 ];
 
 const gitUserName = "vinaysomawat";
