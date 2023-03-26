@@ -260,8 +260,8 @@ export const footer = [
         link: "https://www.linkedin.com/in/david-fonseca-209040187/",
       },
       {
-        text: "Instagram",
-        link: "https://www.instagram.com/david___fonseca/",
+        text: "Projects Portfolio Repository",
+        link: "https://github.com/David-Fonseca/Portfolio",
       },
 
     ],
