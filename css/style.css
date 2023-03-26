@@ -570,6 +570,8 @@ body.offcanvas .colorlib-nav-toggle {
 
 .profile-cards {
 	display: flex;
+
+	
 }
 
 @media screen and (max-width: 768px) {

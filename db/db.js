@@ -50,172 +50,204 @@ export const skills = [
 
 export const projects = {
   disclaimer:
-    "*** All the projects I listed were completed during my college-level development journey. As for my work at the industry level, those projects are confidential and cannot be disclosed.",
+    "",
   webProjects: [
     {
-      projectName: "Programming Diaries",
-      image: "images/programmingdiaries.png",
+      projectName: "",
+      image: "",
       summary:
-        "Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
-      preview: "https://programmingdiaries.herokuapp.com/",
-      techStack: ["Django", "SQLite", "Bootstrap", "JavaScript", "Heroku"],
+        "",
+      preview: "",
+      techStack: ["", "", "", "", ""],
     },
     {
-      projectName: "Find Your Bank",
-      image: "images/findyourbank.png",
+      projectName: "",
+      image: "",
       summary:
-        "Developed a React application to render a list of banks fetched from API. Filtered the banks based on queries from localstorage, marked favorites banks.",
-      preview: "https://clever-fermi-0d5d76.netlify.app",
-      techStack: ["Reactjs", "Bootstrap", "JavaScript", "Netlify"],
+        "",
+      preview: "",
+      techStack: ["", "", "", ""],
     },
     {
-      projectName: "Web Portfolio",
-      image: "images/portfolio.png",
+      projectName: "",
+      image: "",
       summary:
-        "Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
-      preview: "https://github.com/vinaysomawat/Travographer-Portal",
-      techStack: ["HTML", "Bootstrap", "JavaScript"],
+        "",
+      preview: "",
+      techStack: ["", "", ""],
     },
     {
-      projectName: "Resume Builder",
-      image: "images/resume-builder.png",
+      projectName: "",
+      image: "",
       summary:
-        "Browser based editor to build and download Resumes in a customizable templates.",
-      preview: "https://vinaysomawat.github.io/Resume-Builder",
-      techStack: ["HTML", "Bootstrap", "JavaScript"],
+        "",
+      preview: "",
+      techStack: ["", "", ""],
     },
   ],
   softwareProjects: [
     {
-      projectName: "Pizza Ordering ChatBot",
-      image: "images/pizzaorderchatbot.png",
+      projectName: "",
+      image: "",
       summary:
-        "ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
-      preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
-      techStack: ["Dailogflow", "Firebase"],
+        "",
+      preview: "",
+      techStack: ["", ""],
     },
     {
-      projectName: "WhatsApp-Bot",
-      image: "images/whatsappbot.jpg",
+      projectName: "",
+      image: "",
       summary:
-        "Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
-      preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
-      techStack: ["Selenium", "Chrome Webdriver", "Python"],
+        "",
+      preview: "",
+      techStack: ["", "", ""],
     },
     {
-      projectName: "Bill Generator",
-      image: "images/billgenerator.png",
+      projectName: "",
+      image: "",
       summary:
-        "GUI to transfer data to excel sheets and generate bills on the local shops.",
-      preview: "https://github.com/vinaysomawat/Bill-Generator",
-      techStack: ["Tkinter", "Openxlpy", "Python"],
+        "",
+      preview: "",
+      techStack: ["", "", ""],
     },
   ],
   androidProjects: [
     {
-      projectName: "NITW-CSE",
-      image: "images/nitwcse.jpg",
+      projectName: "",
+      image: "",
       summary:
-        "The Application display details of Department courses, reference books, research, publication and faculty profile.",
-      preview: "https://github.com/vinaysomawat/NITW-CSE",
-      techStack: ["JAVA", "XML", "Android"],
+        "",
+      preview: "",
+      techStack: ["", "", ""],
     },
     {
-      projectName: "CareerHigh-App",
-      image: "images/carrerhigh.png",
+      projectName: "",
+      image: "",
       summary:
-        "The Application display the webpages of website careerhigh.in in android devices.",
-      preview: "https://github.com/vinaysomawat/CareerHigh-Android",
-      techStack: ["JAVA", "XML", "Android"],
+        "",
+      preview: "",
+      techStack: ["", "", ""],
     },
   ],
   freelanceProjects: [
     {
-      projectName: "SnylloAir.com",
-      image: "images/snylloair.png",
+      projectName: "",
+      image: "",
       summary:
-        "Developed a company website to showcase the purpose, services and products provided by the company to audience.",
-      preview: "https://www.snylloair.com/",
-      techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
+        "",
+      preview: "",
+      techStack: ["", "", ""],
     },
     {
-      projectName: "Delivery+",
-      image: "images/AM-Logo-.png",
-      summary: "Android Application to display website in android devices.",
+      projectName: "",
+      image: "",
+      summary: "",
       preview:
-        "https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
-      techStack: ["Android", "JAVA", "Play Store"],
+        "",
+      techStack: ["", "", ""],
     },
   ],
 };
 
 export const experience = [
   {
-    title: "TutorBright",
-    duration: "April 2022 - Present",
-    subtitle: "Software Engineer",
+    title: "Foothills Medical Hospital",
+    duration: "September 2022 - Present",
+    subtitle: "Machine Learning with Medical Imaging Intern",
     details: [
-      "Currently involved in developing healthcare and digital therapeutics products."
+      "Working with Medical Imaging team on a transfer learning project using prebuilt complex neural networks",
+      "Managing team of 5 students, overseeing progress and development of team members.",
+      "",
+      ""
     ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
+    tags: ["Python", "Keras", "Tensorflow", "Data Pipelines", "Data Processing"],
     icon: "heartbeat",
   },
   {
-    title: "Novopay Solutions Pvt. Ltd.",
-    duration: "June 2020 - April 2022",
-    subtitle: "Software Engineer",
+    title: "Suncor",
+    duration: "January 2021 - December 2021",
+    subtitle: "Detchnologyst & Data Analytics Intern",
     details: [
-      "Successfully implemented Aadhaar Enabled Payment services, including Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements, and Money Transfer, achieving more than 20 story points in each sprint.",
-      "Streamlined the process of loading money into the wallet by integrating QR Code, which reduced the time required by 50%. Also implemented Clevertap events to track user actions, Freshdesk ticketing service, and chat-bot services. Contributed to user onboarding, approval, and finance interfaces.",
-      "Collaborated closely with cross-functional teams such as product, backend, android, and QA, ensuring timely delivery of product builds to meet deadlines",
+      "Worked with data recognition algorithms to extract relevant information from critical legacy pipeline documents nationwide, and digitalized info to a standardized relational databases",
+      "Maintained large databases and digitalized records dating to founding of company ",
+      "Supported Developed data migration strategies to standardize all records which was implemented by company at provincial level",
+      " Provided back-end support to technical team, focused on development of digitalizing company records on massive scale"
     ],
-    tags: ["JavaScript", "Angular", "React", "Bootstrap", "Nodejs", "Jenkins"],
+    tags: ["Python", "PowerBI", "EXCEL VBA", "SQL", "Microsoft Access", ],
     icon: "qrcode",
   },
   {
-    title: "ThinkPedia LLP",
-    duration: "May 2019 - June 2019",
-    subtitle: "SDE Intern",
+    title: "JBS Brooks",
+    duration: "june 2020 - september 2020",
+    subtitle: "Computer Drafter Intern",
     details: [
-      "Contributed as a full-stack developer to provide technical support to the team",
-      "Designed and developed a comprehensive Web Application for social media management, starting from the ground up, to cater to customer needs.",
+      "Used AutoCad to develop and produce industry standard schematic for Brooks plant to be used by the senior drafters for emergency escape routes by the JBS safety department. ",
+      "Consulted with Architects, senior AutoCad drafters and safety managers regarding project scope and milestone dates.",
     ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
+    tags: ["AutoDesk", "AutoCad", "AutoPlant", "CAD Standards"],
     icon: "group",
+  },
+  {
+    title: "TutorBright",
+    duration: "April 2019 - January 2021",
+    subtitle: "Tutor",
+    details: [
+      "Researched successful tutoring practices to support students to improve their fundamental understanding in all subjects and guided them towards achieving their personal academic goals.", 
+      "All students that were committed to improving reached high standards of academic excellence, such as high school honour roll, and middle school honour's with distinction tittles."
+    ],
+    tags: ["AutoDesk", "AutoCad", "AutoPlant", "CAD Standards"],
+    icon: "book",
   },
 ];
 
 export const education = [
   {
-    title: "Bachelors in Computer Science and Engineering",
-    duration: "",
-    subtitle: "National Institute of Technology, Warangal",
+    title: "Bachelors in Electrical & Computer Engineering",
+    duration: "September 2018 - Current",
+    subtitle: "University of Calgary",
     details: [
-      "I successfully qualified GATE-2020, demonstrating my aptitude and expertise in the field.",
-      "As an active competitive programmer, I have achieved a CodeChef rating of 1841*, showcasing my skills in solving complex programming problems.",
-      "My GitHub projects have earned over 1k stars and forks, a testament to my ability to create high-quality and impactful code.",
-    ],
+    "4th year student",
+    "Consecutively on the Engineer's Dean's List every semester since enrollment, a shortlist of students in Engineering that achieve an average 3.7 GPA or higher; a testament of my commitment to researching, studying, and learning",
+    "Additionally, I am proud to have maintained and currently holding an exceptional 3.88 gpa across my major and minor degrees"   
+  ],
     tags: [
-      "Data Structures & Algorithms",
-      "Operating Systems",
-      "Database Management System",
-      "Computer Networks",
-      "Compiler Designing",
-      "Cloud Computing",
+      "MATLAB",
+      "Networks",
+      "Hardware Design",
+      "Power Engineering",
+      "Engineering Practices & Ethics",
+      "Circuit Design",
+      "Digital Circuit Design & Pipelining",
+      "Electromagentic Physics",
+      "Acustic physics",
+      "Quantum Mechanics",
+      "Control Systems"
     ],
     icon: "graduation-cap",
   },
   {
-    title: "Class 11-12th in Science and Mathematics",
-    duration: "",
-    subtitle: "Board of Secondary Education, Rajasthan",
+    title: "Minor in Computer Science",
+    duration: "January 2020 - Current",
+    subtitle: "University of Calagry",
     details: [
-      "I have successfully qualified JEE Advanced, Main, and BITSAT, demonstrating my strong aptitude and skills in these highly competitive exams.",
-      "Additionally, I am proud to have achieved an exceptional 99.5 percentile in my Class 12th Boards Examinations, reflecting my dedication and hard work towards academic excellence.",
+      "Challenged myself to take on a minor in the interesting and rapidly developing field of computer science alongside my academically rigorous major",
     ],
-    tags: ["Physics", "Chemistry", "Mathematics"],
+    tags: ["Data Structures & Algorythms", "C/C++", "Python","Java","Version Control", "RISC-5", "MIPS",],
     icon: "book",
   },
+  {
+    title: "High School Diploma",
+    duration: "September 2015 - April 2018",
+    subtitle: "St. Mary's Senior High School",
+    details: [
+      "Graduate of full international baccalaureate.",
+      "Wrote IB research papers in the subjects of Classical Chemistry, World History, and Electromagnetic Physics"
+      ,"Very proud to have achieved a 97% average across all grade 12 core subjects"
+    ],
+    tags: ["Physics", "Calculus", "Mathematics","Biology","Chemistry", "World History", "Philosophy",],
+    icon: "book",
+  },
+
 ];
 
 export const footer = [
