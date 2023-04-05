@@ -48,6 +48,51 @@ export const skills = [
   },
 ];
 
+export const awards={
+
+  academicAwards:[
+    {
+      awardName:"President's Admission",
+      number:"1",
+      image:"",
+      summary:"",
+      issuer:"University of Calgary",
+    },
+    {
+      awardName:"Jason Lang",
+      number:"3",
+      image:"",
+      summary:"",
+      issuer:"University of Calgary",
+    },
+    {
+      awardName:"Dean's List",
+      number:"3",
+      image:"",
+      summary:"",
+      issuer:"University of Calgary",
+    },
+
+    {
+      awardName:"Physics 30 IB Award",
+      number:"1",
+      image:"",
+      summary:"",
+      issuer:"St. Mary's Senior High School",
+    },
+
+    {
+      awardName:"Mathematics 30 IB Award",
+      number:"1",
+      image:"",
+      summary:"",
+      issuer:"St. Mary's Senior High School",
+    }
+
+  ]
+}
+
+
 export const projects = {
   disclaimer:
     "",
@@ -249,6 +294,42 @@ export const education = [
   },
 
 ];
+
+export const coursework ={
+  electricalEngineering: [
+    {
+      course:"",
+      description:"",
+      skills:"",
+      grade:""
+    }
+  ],
+  computerEngineering: [
+    {
+      course:"",
+      description:"",
+      skills:"",
+      grade:""
+    }
+  ],
+  softwareEngineering: [
+    {
+      course:"",
+      description:"",
+      skills:"",
+      grade:""
+    }
+  ],
+  dataScience3: [
+    {
+      course:"",
+      description:"",
+      skills:"",
+      grade:""
+    }
+  ],
+
+}
 
 export const footer = [
   
