@@ -1,11 +1,17 @@
 import {
   bio,
   skills,
+  awards,
+  
   URLs,
+
   projects,
+  
   education,
   experience,
+  coursework,
   footer,
+  
 } from "../db/db.js";
 
 const { disclaimer, webProjects, softwareProjects, androidProjects, freelanceProjects } =
@@ -86,6 +92,24 @@ function populateSkills(items, id) {
     skillsTag.append(divAnimateBox);
   });
 }
+
+/**
+ * Populates awards to the HTML page.
+ *
+ * @function
+ *
+ * @param {Array} items - An array of objects that contain award information.
+ * @param {string} id - The id of the HTML element to which awards will be appended.
+ *
+ * @returns {void}
+ */
+function populateAwards(items, id){
+  const awardsTag = document.getElementById(id);
+  items.forEach(({awardsName, issuer, number, summary, image}) => {
+
+  });
+}
+
 
 /**
  * Populates projects to the HTML page.
@@ -324,6 +348,88 @@ function populateExp_Edu(items, id) {
   article.append(divTimelineEntryInner);
 
   mainContainer.append(article);
+}
+
+/**
+ * Populates coursework to the HTML page.
+ *
+ * @function
+ *
+ * @param {Array} items - An array of objects that contain project information.
+ * @param {string} id - The id of the HTML element to which projects will be appended.
+ *
+ * @returns {void}
+ */
+
+function populateCoursework(items, id) {
+  let course = document.getElementById(id);
+
+  let h4 = document.createElement("h4");
+  h4.className = "course-heading";
+
+  let a = document.createElement("a");
+  a.target = "_blank";
+
+  let img = document.createElement("img");
+  img.className = "img-fluid";
+
+  let divResumeContentLeft = document.createElement("div");
+  divResumeContentLeft.className = "resume-content";
+  divResumeContentLeft.id = "left-div";
+  divResumeContentLeft.append(img);
+
+  let divResumeContentRight = document.createElement("div");
+  divResumeContentRight.className = "resume-content";
+  divResumeContentRight.id = "right-div";
+
+  let p = document.createElement("p");
+  p.className = "class-description";
+
+  let divSpan = document.createElement("div");
+
+  let divSubHeading = document.createElement("div");
+  divSubHeading.className = "sub-heading";
+  divSubHeading.append(p);
+  divSubHeading.append(divSpan);
+  divResumeContentRight.append(divSubHeading);
+
+  let divResumeItem = document.createElement("div");
+  divResumeItem.className = "resume-item";
+  divResumeItem.append(divResumeContentLeft);
+  divResumeItem.append(divResumeContentRight);
+  a.append(divResumeItem);
+
+  let divProjectCard = document.createElement("div");
+  divProjectCard.className = "project-card";
+  divProjectCard.append(a);
+
+  let li = document.createElement("li");
+  li.append(divProjectCard);
+
+  let hr = document.createElement("hr");
+
+  for (let i = 0; i < items.length; i++) {
+    h4.innerHTML = items[i].projectName;
+    a.href = items[i].preview;
+
+    img.src = items[i].image;
+
+    p.innerHTML = items[i].summary;
+
+    divSpan.innerHTML = "";
+    for (let k = 0; k < items[i].techStack.length; k++) {
+      let span = document.createElement("span");
+      span.className = "badge badge-secondary";
+      span.innerHTML = items[i].techStack[k];
+      divSpan.append(span);
+    }
+
+    projectdesign.append(li.cloneNode(true));
+
+    if (i != items.length - 1) {
+      projectdesign.append(hr.cloneNode(true));
+    }
+  }
 }
 
 /**
