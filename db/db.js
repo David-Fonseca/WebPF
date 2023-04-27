@@ -98,7 +98,7 @@ export const projects = {
     "",
   webProjects: [
     {
-      projectName: "To Do App",
+      projectName: "To-Do app",
       image: "images/To-Do.png",
       summary:
         "Web app for keeping a list of incomplete objectives, built on html and java script for quick deployment.",
@@ -111,6 +111,14 @@ export const projects = {
       summary:
         "Simple web application that calculates body mass index (BMI) based on weight and height inputs. The app has been styled with modern CSS for an appealing visual design.",
       preview: "https://david-fonseca.github.io/BMI-calculator/",
+      techStack: ["HTML", "CSS","JavaScript"],
+    },
+    {
+      projectName: "Snake game",
+      image: "images/snake.png",
+      summary:
+        "Simple web game.",
+      preview: "https://david-fonseca.github.io/snakeGame/",
       techStack: ["HTML", "CSS","JavaScript"],
     }
   ],
