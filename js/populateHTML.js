@@ -16,7 +16,11 @@ import {
 
 const { disclaimer, webProjects, softwareProjects, androidProjects, freelanceProjects } =
   projects;
+
 const { mediumURL } = URLs;
+
+const { disclaim, elecEngg, compEngg, softEngg, dataSci } =
+  coursework;
 
 /**
  * Fetches blogs from Medium profile.
@@ -350,6 +354,9 @@ function populateExp_Edu(items, id) {
   mainContainer.append(article);
 }
 
+
+
+
 /**
  * Populates coursework to the HTML page.
  *
@@ -362,10 +369,10 @@ function populateExp_Edu(items, id) {
  */
 
 function populateCoursework(items, id) {
-  let course = document.getElementById(id);
+  let projectdesign = document.getElementById(id);
 
   let h4 = document.createElement("h4");
-  h4.className = "course-heading";
+  h4.className = "project-heading";
 
   let a = document.createElement("a");
   a.target = "_blank";
@@ -383,7 +390,7 @@ function populateCoursework(items, id) {
   divResumeContentRight.id = "right-div";
 
   let p = document.createElement("p");
-  p.className = "class-description";
+  p.className = "project-description";
 
   let divSpan = document.createElement("div");
 
@@ -515,7 +522,7 @@ populateSkills(skills, "skills");
 
 fetchBlogsFromMedium(mediumURL);
 
-populateProjects(webProjects, "web-projects");
+populateProjects(elecEngg, "web-projects");
 populateProjects(softwareProjects, "software-projects");
 populateProjects(androidProjects, "android-projects");
 populateProjects(freelanceProjects, "freelance-projects");
@@ -523,5 +530,8 @@ populateDisclaimer(disclaimer, "project-disclaimer");
 
 populateExp_Edu(experience, "experience");
 populateExp_Edu(education, "education");
+
+
+
 
 populateLinks(footer, "footer");

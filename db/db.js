@@ -295,41 +295,99 @@ export const education = [
 
 ];
 
-export const coursework ={
-  electricalEngineering: [
+export const coursework = {
+  disclaim:
+    "",
+  elecEngg: [
     {
-      course:"",
-      description:"",
-      skills:"",
-      grade:""
-    }
-  ],
-  computerEngineering: [
+      projectName: "dfgdb",
+      image: "fbdfb",
+      summary:
+        "fbdfbf",
+      preview: "fdbfdb",
+      techStack: ["fbdf", "fbdf"],
+    },
     {
-      course:"",
-      description:"",
-      skills:"",
-      grade:""
-    }
-  ],
-  softwareEngineering: [
+      projectName: "fbdf",
+      image: "fbd",
+      summary:
+        "fbd",
+      preview: "dfb",
+      techStack: ["fbd", "fbd", "fbd"],
+    },
     {
-      course:"",
-      description:"",
-      skills:"",
-      grade:""
-    }
+      projectName: "",
+      image: "",
+      summary:
+        "",
+      preview: "",
+      techStack: ["", "", ""],
+    },
   ],
-  dataScience3: [
+  compEngg: [
     {
-      course:"",
-      description:"",
-      skills:"",
-      grade:""
-    }
+      projectName: "",
+      image: "",
+      summary:
+        "",
+      preview: "",
+      techStack: ["", ""],
+    },
+    {
+      projectName: "",
+      image: "",
+      summary:
+        "",
+      preview: "",
+      techStack: ["", "", ""],
+    },
+    {
+      projectName: "",
+      image: "",
+      summary:
+        "",
+      preview: "",
+      techStack: ["", "", ""],
+    },
   ],
+  softEngg: [
+    {
+      projectName: "",
+      image: "",
+      summary:
+        "",
+      preview: "",
+      techStack: ["", "", ""],
+    },
+    {
+      projectName: "",
+      image: "",
+      summary:
+        "",
+      preview: "",
+      techStack: ["", "", ""],
+    },
+  ],
+  dataSci: [
+    {
+      projectName: "",
+      image: "",
+      summary:
+        "",
+      preview: "",
+      techStack: ["", "", ""],
+    },
+    {
+      projectName: "",
+      image: "",
+      summary: "",
+      preview:
+        "",
+      techStack: ["", "", ""],
+    },
+  ],
+};
 
-}
 
 export const footer = [
   
