@@ -41,6 +41,43 @@ body {
 		text-align: center;
 	}
 }
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 15px;
+	background-color: #e3e0cf;
+  }
+  
+  .image {
+	flex: 0 0 30%;
+	margin-right: 10px;
+  }
+  
+  .image img {
+	max-width: 100%;
+	height: auto;
+  }
+  
+  .content {
+	flex: 0 0 65%;
+  }
+  
+  .content h4 {
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	margin-top:5px;
+  }
+  
+  .content p {
+	font-size: 12px;
+	line-height: 1.5;
+	margin-bottom: 5px;
+  }
+  
 /* Grid container */
 .grid-container {
 	display: grid;
