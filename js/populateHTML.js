@@ -72,8 +72,8 @@ function populateSkills(items, id) {
     const h3 = getElement("h3", null);
     h3.innerHTML = skillName;
 
-    const divProgress = getElement("div", "progress");
-    const divProgressBar = getElement("div", `progress-bar color-${color}`);
+    const divProgress = getElement("div");
+    const divProgressBar = getElement("div");
     divProgressBar.style = `width: ${percentage}%`;
     divProgress.append(divProgressBar);
 

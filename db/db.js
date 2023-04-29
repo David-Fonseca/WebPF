@@ -1,50 +1,122 @@
 export const bio = [
-  "Hello",
-  "",
+  "Hi, I'm David Fonseca, an Electrical and Computer Engineering student with a passion for innovation and problem-solving. During my studies, I gained valuable experience in machine learning, data analytics, digital circuit design, and electrical circuit design.",
+  "My academic achievements reflect my passion for Electrical and Computer Engineering. I hold a 3.90 GPA in my final year of a Bachelor's degree in Electrical and Computer Engineering with a minor in Computer Science from the University of Calgary, I have received multiple academic awards, including the Jason Lang Scholarship, the Presidential Admission Award and am a four-time consecutive Dean's List Student. I am set to graduate with honours and distinction. In high school, I achieved a 96% overall average in G12 Alberta Curriculum and received the 2018 Mathematics 30 IB Award and the 2018 Physics 30 IB Award.",
 ];
 
 export const skills = [
   {
-    title: "Languages",
-    skillName: "JavaScript",
+    title: "Power System Protection",
+    skillName: "Power Sytem Analysis and Protection",
   },
     {
     title: "Java",
-    skillName: "Java",
+    skillName: "Line Diagrams",
     
   },
     {
     title: "Python",
-    skillName: "Python",
+    skillName: "Control Systems",
     
   },
     {
     title: "C/C++",
-    skillName: "C/C++",
+    skillName: "Digital Circuit Design",
     
   },
   {
     title: "Basics in Web Development",
-    skillName: "HTML, Bootstrap",
+    skillName: "Electrical Circuit Design",
   
   },
   {
     title: "Embedded Systems",
-    skillName: "Instrumentation and Sensors",
+    skillName: "Internet of Things",
   },
   {
     title: "Testing",
-    skillName: "Code Testing",
+    skillName: "Embedded Systems",
 
   },
   {
     title: "Analytics",
-    skillName: "Microsoft Excel, R, Tableau",
+    skillName: "Instruction Pipelines",
   },
   {
     title: "Editor",
-    skillName: "VS Code",
+    skillName: "VHDL for FPGA's",
 
+  },
+  {
+    title: "Analytics",
+    skillName: "Networks",
+  },
+  {
+    title: "Analytics",
+    skillName: "AutoCAD    ✓",
+  },
+  {
+    title: "Analytics",
+    skillName: "C/C++ ✓",
+  },
+  {
+    title: "Analytics",
+    skillName: "Python ✓",
+  },
+  {
+    title: "Analytics",
+    skillName: "Java ✓",
+  },
+  {
+    title: "Analytics",
+    skillName: "Processing",
+  },
+  {
+    title: "Analytics",
+    skillName: "JavaScript ✓",
+  },
+  {
+    title: "Analytics",
+    skillName: "Basics in Front End Development ✓",
+  },
+  {
+    title: "Analytics",
+    skillName: "GitBash ✓",
+  },
+  {
+    title: "Analytics",
+    skillName: "MATLAB ✓",
+  },
+  {
+    title: "Analytics",
+    skillName: "Data Analytics",
+  },
+  {
+    title: "Analytics",
+    skillName: "Data Pipelines",
+  },
+  {
+    title: "Analytics",
+    skillName: "Machine Learning ✓",
+  },
+  {
+    title: "Analytics",
+    skillName: "Neural Networks",
+  },
+  {
+    title: "Analytics",
+    skillName: "TensorFlow",
+  },
+  {
+    title: "Analytics",
+    skillName: "Excellent Writtem and Verbal Communication",
+  },
+  {
+    title: "Analytics",
+    skillName: "Advanced Mathematical Ability",
+  },
+  {
+    title: "Analytics",
+    skillName: "Microsoft Office Suite ✓",
   },
 ];
 
@@ -230,10 +302,9 @@ export const experience = [
     duration: "September 2022 - Present",
     subtitle: "Machine Learning with Medical Imaging Intern",
     details: [
-      "Working with Medical Imaging team on a transfer learning project using prebuilt complex neural networks",
-      "Managing team of 5 students, overseeing progress and development of team members.",
-      "",
-      ""
+      "Delivered two models that can detect occlusion and recanalization, and hemisphere localization with continuously strong results.",
+      "Led team of 3 interns to successfully develop and implement an occlusion/recanalization model that identified occlusion with 93.75% accuracy and 93.33% F1-score",
+      "Achieved a mean accuracy of 0.96 and mean f1-score of 0.95 using the 5-fold cross-validation method"
     ],
     tags: ["Python", "Keras", "Tensorflow", "Data Pipelines", "Data Processing"],
     icon: "heartbeat",
@@ -243,10 +314,10 @@ export const experience = [
     duration: "January 2021 - December 2021",
     subtitle: "Detchnologyst & Data Analytics Intern",
     details: [
-      "Worked with data recognition algorithms to extract relevant information from critical legacy pipeline documents nationwide, and digitalized info to a standardized relational databases",
-      "Maintained large databases and digitalized records dating to founding of company ",
-      "Supported Developed data migration strategies to standardize all records which was implemented by company at provincial level",
-      " Provided back-end support to technical team, focused on development of digitalizing company records on massive scale"
+      "Received a recognition for implementing a data recognition algorithm to extract critical information from legacy pipeline documents, resulting in digitalization of over 10,000 documents into standardized databases.",
+      "Collaborated with technical team to develop data migration strategies and oversaw implementation of standardized record-keeping at provincial level, resulting in a 25% increase in efficiency",
+      "Provided back-end support for company-wide digitalization initiative, overseeing the digitalization of over 100,000 records and improving data accessibility.",
+      "Provided back-end support to technical team, focused on development of digitalizing company records on massive scale"
     ],
     tags: ["Python", "PowerBI", "EXCEL VBA", "SQL", "Microsoft Access", ],
     icon: "qrcode",
@@ -259,7 +330,7 @@ export const experience = [
       "Used AutoCad to develop and produce industry standard schematic for Brooks JBS plant to be used by the senior drafters for emergency escape routes by the JBS safety department. ",
       "Consulted with Architects, senior AutoCad drafters and safety managers regarding project scope and milestone dates.",
     ],
-    tags: ["AutoDesk", "AutoCad", "AutoPlant", "CAD Standards"],
+    tags: ["AutoDesk", "AutoCad", "CAD Standards"],
     icon: "group",
   },
   {
@@ -270,7 +341,7 @@ export const experience = [
       "Researched successful tutoring practices to support students to improve their fundamental understanding in all subjects and guided them towards achieving their personal academic goals.", 
       "All students that were committed to improving reached high standards of academic excellence, such as high school honour roll, and middle school honour's with distinction tittles."
     ],
-    tags: ["AutoDesk", "AutoCad", "AutoPlant", "CAD Standards"],
+    tags: ["Team Work","Communication","Leadership"],
     icon: "book",
   },
 ];
@@ -281,9 +352,9 @@ export const education = [
     duration: "September 2018 - Current",
     subtitle: "University of Calgary",
     details: [
-    "4th year student",
+    "3.90 GPA",
     "Consecutively on the Engineer's Dean's List every semester since enrollment, a shortlist of students in Engineering that achieve an average 3.7 GPA or higher; a testament of my commitment to researching, studying, and learning",
-    "Additionally, I am proud to have maintained and currently holding an exceptional 3.88 gpa across my major and minor degrees"   
+    "Additionally, I am proud to have maintained and currently holding an exceptional 3.90 gpa across courses relating to my major and minor degrees"   
   ],
     tags: [
       "MATLAB",
@@ -305,7 +376,7 @@ export const education = [
     duration: "January 2020 - Current",
     subtitle: "University of Calagry",
     details: [
-      "Challenged myself to take on a minor in the interesting and rapidly developing field of computer science alongside my academically rigorous major",
+      "Challenged myself to take on a minor, in the interesting and rapidly developing field of computer science, alongside my academically rigorous major",
     ],
     tags: ["Data Structures & Algorythms", "C/C++", "Python","Java","Version Control", "RISC-5", "MIPS",],
     icon: "book",
@@ -317,7 +388,8 @@ export const education = [
     details: [
       "Graduate of full international baccalaureate.",
       "Wrote IB research papers in the subjects of Classical Chemistry, World History, and Electromagnetic Physics"
-      ,"Very proud to have achieved a 97% average across all grade 12 core subjects"
+      ,"Very proud to have achieved a 96% average across all grade 12 core subjects",
+      "40/45 in Full IB curriculum"
     ],
     tags: ["Physics", "Calculus", "Mathematics","Biology","Chemistry", "World History", "Philosophy",],
     icon: "book",
@@ -432,6 +504,14 @@ export const footer = [
         text: "Github",
         link: "https://github.com/David-Fonseca/",
       },
+      {
+        text: "Resume",
+        link: "https://www.canva.com/design/DAFhbtIJzcg/hBz7rz7xf27mMv65HS4Kjw/edit?utm_content=DAFhbtIJzcg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+      },
+      {
+        text: "Reports",
+        Link:"https://fliphtml5.com/bookcase/dgdcu/"
+      }
 
     ],
   },
