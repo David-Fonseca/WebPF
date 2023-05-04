@@ -252,7 +252,7 @@ export const projects = {
       projectName: "Control System for an airplane",
       image: "images/airplane.png",
       summary:
-        "Elevator used to control the pitch of the aircraft which in turn determines the altitude of the aircraft",
+        "Designed a PID controller to control the pitch of an aircraft which in turn determines the altitude of the aircraft during different hazardous conditions",
       preview: "https://youtu.be/yAzQbHMPyfY",
       techStack: ["Python", "Control", "Root Locus analysis", "PID controllers","Lead/Lag Compensators"],
     },
@@ -260,7 +260,7 @@ export const projects = {
       projectName: "Find the Hacker",
       image: "images/Hacker.png",
       summary:
-        "Short python script that detects a hacker in a network using \'Spoofing\', script outputs the hacker's true IP address, and how many packets the hacker was able to steal.",
+        "Short python script that detects a hacker in a network using \'Spoofing\'. The script outputs the hacker's true IP address, and how many packets the hacker was able to steal.",
       preview: "https://github.com/David-Fonseca/findTheHacker/blob/main/mitmbuster.py",
       techStack: ["Python", "Networks", "Scapy", "Wireshark"],
     },
@@ -271,6 +271,23 @@ export const projects = {
         "Several tasks done in ETAP to analyze and design protection zones for power lines",
       preview: "https://online.fliphtml5.com/veymr/jkha/",
       techStack: ["ETAP", "Single Line Diagrams", "Three Phase Systems", "Protection Zones","Relays","breakers","Power Engineering"],
+    },
+    {
+      projectName: "FPGA programming projects with VHDL",
+      image: "images/fpga projects.png",
+      summary:
+        "Projects designing programming blocks for an FPGA using VHDL. Projects were done in groups of two, where I served as the design lead and fully designed the pipelines and used VHDL to program them",
+      preview: "https://www.youtube.com/playlist?list=PL7QVHwJHchffaJusfBgFUIPtfRTub6WCo",
+      techStack: ["VHDL", "FPGA", "Electronic Circuits"],
+    },
+
+    {
+      projectName: "Microcontroller design and programming in C",
+      image: "images/IMG-1443.jpg",
+      summary:
+        "Projects designing electronic circuits with a microcontroller and contemporary components such as resistors, capaciters, potentiometers, buttons, etc. Programming was done in C",
+      preview: "https://www.youtube.com/playlist?list=PL7QVHwJHchfduX8iM5MtXVatjp98FtyNf",
+      techStack: ["C", "Electronic Circuits"],
     },
   ],
   freelanceProjects: [
