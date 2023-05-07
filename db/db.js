@@ -329,7 +329,7 @@ export const experience = [
   {
     title: "Suncor",
     duration: "January 2021 - December 2021",
-    subtitle: "Technologyst & Data Analytics Intern",
+    subtitle: "Technologist & Data Analytics Intern",
     details: [
       "Received a recognition for implementing a data recognition algorithm to extract critical information from legacy pipeline documents, resulting in digitalization of over 10,000 documents into standardized databases.",
       "Collaborated with technical team to develop data migration strategies and oversaw implementation of standardized record-keeping at provincial level, resulting in a 25% increase in efficiency",
