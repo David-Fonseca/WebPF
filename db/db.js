@@ -216,7 +216,7 @@ export const projects = {
       image: "images/hamper.png",
       summary:
         "User friendly food hamper software. Built in Java with object oriented programming principles",
-      preview: "https://github.com/David-Fonseca/ENSF-409-Final-Project-Group-27",
+      preview: "https://www.youtube.com/watch?v=EpPpOjR3e68&ab_channel=MadLad",
       techStack: ["Java", "Object Oriented Programming", "My SQL"],
     },
 
